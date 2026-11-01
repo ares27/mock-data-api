@@ -34,7 +34,7 @@ For local development, create a `.env` file in the project directory:
 
 ```dotenv
 GEMINI_API_KEY=your-google-ai-api-key
-MASTER_API_KEY=synczen_test_key_12345
+MASTER_API_KEY=your-local-master-key
 ```
 
 The included master key is for local testing only. Configure a unique,
@@ -81,7 +81,7 @@ GET /
 Example response:
 
 ```json
-{"status": "ok"}
+{ "status": "ok" }
 ```
 
 ### Generate from a schema
